@@ -1,0 +1,76 @@
+.form-group-2 {
+    position: relative;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.label-input {
+    border: none;
+    border-bottom:1px solid rgba(87, 87, 87, 0.2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: #575757;
+}
+/*INIT PLACEHOLDER*/
+.form-control-placeholder {
+    font-size: 80%;
+    font-family: 'Mulish', sans-serif;
+}
+
+input + .form-control-placeholder {
+    position: absolute;
+    transition: all 200ms;
+    top: -9px;
+    bottom: 10px;
+    opacity: 1;
+    font-size: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input:placeholder-shown + .form-control-placeholder {
+    position: absolute;
+    pointer-events: none;
+    left: 0%;
+    top:10px;
+    transition: 0.2s ease all;
+    color: #999999;
+    font-size: 80%;
+}
+
+.form-control:focus + .form-control-placeholder {
+position: absolute;
+transition: all 200ms;
+    top: -19px;
+    bottom: 10px;
+    opacity: 1;
+    color: #1D71B8;
+    font-size: 80%;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px 20px 0 20px;
+    border-bottom:1px solid #1d71b8;
+    color: #000;
+    background-color: white;
+}
+
+.label-register{
+    position: absolute;
+    pointer-events: none;
+    left: 0px;
+    top:10px;
+    transition: 0.2s ease all;
+    color: #999999;
+    font-size: 80%;
+    font-family: 'Mulish', sans-serif;
+}
+/*END PLACEHOLDER*/

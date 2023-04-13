@@ -1,0 +1,14 @@
+{
+    "INPUTS_REQUIRED":"Todos los campos son obligatorios.",
+    "LOG_TYPE_DOCUMENT_ERR":"Tipo de documento es requerido.",
+    "LONG_DOC_ERR":"Longitud del 'número de documento' invalido.",
+    "LONG_NAME_ERR":"Longitud de 'nombre(s)' invalido.",
+    "LONG_LASTNAME_ERR":"Longitud de 'apellido(s)' invalido.",
+    "LONG_EMAIL_ERR":"Longitud del 'Correo electrónico' invalido.",
+    "LONG_PHONE_ERR":"Longitud de 'número de celular' invalido.",
+    "LONG_EXPEDITIONDATE_ERR":"Fecha de expedición de documento invalida.",
+    "LONG_HOMEADRESS_ERR":"Longitud de 'dirección de domicilio' invalido.",
+    "LONG_DEPARTMENT_ERR":"Se requiere Departamento.",
+    "LONG_MUNICIPALY_ERR":"Se requiere Municipio.",
+    "CONFIRM_BUTTON_TITLE": "Entendido"
+}

@@ -1,0 +1,135 @@
+::-webkit-scrollbar {display: none;}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.user-form-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./media/fondo_app.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 5%;
+  overflow-y: scroll;
+}
+
+.container-form-onboarding {
+  width: 60%;
+  height: auto;
+  min-height: 50vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.14902);
+  flex-direction: column;
+}
+
+.container-form-onboarding-confirmation {
+  width: 90%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.14902);
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.image_logo {
+  min-width: 25%;
+  max-width: 40%;
+  margin: 2%;
+}
+
+@media only screen and (max-width: 1200px){
+  .container-form-onboarding {
+    width: 65%;
+    height: auto;
+    min-height: 50vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.14902);
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+  
+}
+
+@media only screen and (max-width: 992px){
+  .container-form-onboarding {
+    width: 75%;
+    height: auto;
+    min-height: 50vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.14902);
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+  
+}
+
+@media only screen and (max-width: 768px){
+  .container-form-onboarding {
+    width: 94%;
+    height: auto;
+    min-height: 50vh;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.14902);
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+  
+}
+
+
+
+
