@@ -34,7 +34,7 @@ class App extends Component {
         Swal.showLoading()
       }
     });
-    await axios.post("https://test-hydraservice.onrender.com/v1/register/",{
+    await axios.post("https://firm-service.onrender.com/registers/",{
     //await axios.post("http://localhost:4000/",{
       typeDocument: this.state.typeDocument,
       dni: parseInt(this.state.numberDocument),
